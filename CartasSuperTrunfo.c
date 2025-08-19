@@ -7,6 +7,8 @@ int main(){
     float area1;
     float pib1;
     int npturistico1;
+    float densidadepopulacional1;
+    float pibpercapita1;
     /*declarando variavel carta 1*/
     char estado2 [1];
     char cod2 [2];
@@ -15,6 +17,8 @@ int main(){
     float area2;
     float pib2;
     int npturistico2;
+    float densidadepopulacional2;
+    float pibpercapita2;
     /*declarando variavel carta 2*/
     printf("Dados da carta 1\n");
     printf("Digite a letra do estado:\n");
@@ -32,6 +36,8 @@ int main(){
     printf("Digite o numero de pontos turisticos:\n");
     scanf("%d",&npturistico1);
     /*coletando dados da carta 1 digitadas no terminal*/
+    densidadepopulacional1 = populacao1 / area1;
+    printf("%f \n",densidadepopulacional1);
 
     
     printf("Dados da carta 2\n");
@@ -50,6 +56,10 @@ int main(){
     printf("Digite o numero de pontos turisticos:\n");
     scanf("%d",&npturistico2);
     /*coletando dados da carta 2 digitadas no terminal*/
+    densidadepopulacional2 = populacao2 / area2;
+    printf("%f \n",densidadepopulacional2);
+
+
     printf("Carta 1\n");
     printf("Estado:%s\n", estado1);
     printf("Codigo:%s\n", cod1);
