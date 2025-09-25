@@ -20,6 +20,20 @@ int main(){
     float densidadepopulacional2;
     float pibpercapita2;
     /*declarando variavel carta 2*/
+    float dpopu1;
+    float pibpercapita1;
+    float dpopu2;
+    float spoder1;
+    float spoder2;
+    /*declarando variaveis de calculo*/
+    int resulpopu;
+    int resularea;
+    int resulpib;
+    int resulnp;
+    int resulpopu;
+    int resulpercap;
+    int resulspoder;
+    /*Declarando variaveis para comparaçao*/
     printf("Dados da carta 1\n");
     printf("Digite a letra do estado:\n");
     scanf("%s",&estado1);
@@ -35,10 +49,10 @@ int main(){
     scanf("%f",&pib1);
     printf("Digite o numero de pontos turisticos:\n");
     scanf("%d",&npturistico1);
-    /*coletando dados da carta 1 digitadas no terminal*/
+    
     densidadepopulacional1 = populacao1 / area1;
     printf("%f \n",densidadepopulacional1);
-
+/*coletando dados da carta 1 digitadas no terminal*/
     
     printf("Dados da carta 2\n");
     printf("Digite a letra do estado:\n");
@@ -55,11 +69,20 @@ int main(){
     scanf("%f",&pib2);
     printf("Digite o numero de pontos turisticos:\n");
     scanf("%d",&npturistico2);
-    /*coletando dados da carta 2 digitadas no terminal*/
+  
     densidadepopulacional2 = populacao2 / area2;
     printf("%f \n",densidadepopulacional2);
+  /*coletando dados da carta 2 digitadas no terminal*/
 
-
+  dpopu1 =populacao1 / area1;
+  dpopu2 = populacao2 / area2;
+  pibpercapita1 = pib1 / populacao1;
+  pibpercapita2 = pib2 / populacao2;
+  /*Calculando com operador matematico de divisao*/
+  spoder1 = (float) populacao1 + area1 + pib1 + npturistico1 + pibpercapita1 + densidadepopulacional1;
+  
+  spoder2 = (float) populacao2 + area2 + pib2 + npturistico2 + pibpercapita2 + densidadepopulacional2;
+/*Calculando com operador matematico de adiçao*/
     printf("Carta 1\n");
     printf("Estado:%s\n", estado1);
     printf("Codigo:%s\n", cod1);
