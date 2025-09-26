@@ -21,8 +21,9 @@ int main(){
     float pibpercapita2;
     /*declarando variavel carta 2*/
     float dpopu1;
-    float pibpercapita1;
+    float percap1;
     float dpopu2;
+    float percap2;
     float spoder1;
     float spoder2;
     /*declarando variaveis de calculo*/
