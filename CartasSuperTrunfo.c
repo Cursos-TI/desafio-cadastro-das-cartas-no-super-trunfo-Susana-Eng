@@ -34,6 +34,8 @@ int main(){
     int resuldpopu;
     int resulpercap;
     int resulspoder;
+    int opcao;
+
     /*Declarando variaveis para comparaçao*/
     printf("Dados da carta 1\n");
     printf("Digite a letra do estado:\n");
@@ -91,6 +93,32 @@ int main(){
     resulnp = npturistico1 > npturistico2;
     resuldpopu = dpopu1 > dpopu2;
     resulspoder = spoder1 > spoder2;
+    /*Fazendo a comparação das cartas*/
+    if (pib1 > pib2) {
+        printf("Carta 1 %f, venceu \n", pib1 );
+    } else {
+        printf ( "Carta 2 %f, venceu \n", pib2 );
+    }
+    /*Comparando o pib para ver qual carta é maior*/
+    printf (" Escolha uma opção:\n");
+    printf (" 1. população\n");
+    printf (" 2. area\n");
+    printf (" 3. pib\n");
+    printf (" 4. numeros de pontos turisticos\n");
+    printf (" 5. densidade populacional\n");
+    printf (" 6. pib percap\n");
+    printf (" 7. super poder\n");
+    scanf("%d", & opcao);
+    switch (opcao) {
+        case 1 :
+        if (populacao1 > populacao2) {
+            printf("Carta 1 %f, venceu \n",populacao1);
+        } else {
+            printf(" Carta 2 %f, venceu \n", populacao2);
+        }
+        break;
+    }
+    
 
     printf("Carta 1\n");
     printf("Estado:%s\n", estado1);
