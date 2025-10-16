@@ -117,6 +117,44 @@ int main(){
             printf(" Carta 2 %f, venceu \n", populacao2);
         }
         break;
+        case 2 :
+        if (area1 > area2) {
+            printf("Carta 1 %f, venceu \n",area1);
+        } else {
+            printf(" Carta 2 %f, venceu \n", area2);
+        }
+        case 3 :
+        if (pib1 > pib2) {
+            printf("Carta 1 %f, venceu \n",pib1);
+        } else {
+            printf(" Carta 2 %f, venceu \n", pib2);
+        }
+        case 4 :
+        if (npturistico1 > npturistico2) {
+            printf("Carta 1 %f, venceu \n",npturistico1);
+        } else {
+            printf(" Carta 2 %f, venceu \n", npturistico2);
+        }
+        case 5 :
+        if (densidadepopulacional1 > densidadepopulacional2) {
+            printf("Carta 1 %f, venceu \n",densidadepopulacional1);
+        } else {
+            printf(" Carta 2 %f, venceu \n", densidadepopulacional2);
+        }
+        case 6 :
+        if (percap1 > percap2) {
+            printf("Carta 1 %f, venceu \n",percap1);
+        } else {
+            printf(" Carta 2 %f, venceu \n", percap2);
+        }
+        case 7 :
+        if (spoder1 > spoder2) {
+            printf("Carta 1 %f, venceu \n",spoder1);
+        } else {
+            printf(" Carta 2 %f, venceu \n", spoder2);
+        }
+    
+        break;
     }
     
 
