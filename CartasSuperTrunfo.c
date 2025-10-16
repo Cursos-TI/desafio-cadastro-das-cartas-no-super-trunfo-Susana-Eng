@@ -126,31 +126,47 @@ int main(){
         case 3 :
         if (pib1 > pib2) {
             printf("Carta 1 %f, venceu \n",pib1);
-        } else {
+        } else if (pib1 = pib2) {
+            printf("Empate \n");
+        }else{}
             printf(" Carta 2 %f, venceu \n", pib2);
         }
+        break;
         case 4 :
         if (npturistico1 > npturistico2) {
             printf("Carta 1 %f, venceu \n",npturistico1);
-        } else {
+        } else if (npturistico1 =npturistico2) {
+            printf ("Empate \n");
+        }else{}
             printf(" Carta 2 %f, venceu \n", npturistico2);
         }
+        break;
+
         case 5 :
         if (densidadepopulacional1 > densidadepopulacional2) {
             printf("Carta 1 %f, venceu \n",densidadepopulacional1);
-        } else {
+        } else if (densidadepopulacional1 = densidadepopulacional2) {
+            printf ("Empate \n");
+        }else {
+        }
             printf(" Carta 2 %f, venceu \n", densidadepopulacional2);
         }
+        break;
         case 6 :
         if (percap1 > percap2) {
             printf("Carta 1 %f, venceu \n",percap1);
-        } else {
+        } else if (percap1 = percap2) {
+            printf ("Empate \n");
+        }else {}
             printf(" Carta 2 %f, venceu \n", percap2);
         }
+        break;
         case 7 :
         if (spoder1 > spoder2) {
             printf("Carta 1 %f, venceu \n",spoder1);
-        } else {
+        } else if (spoder1 = spoder2) {
+            printf ("Empate \n");
+        }else {}
             printf(" Carta 2 %f, venceu \n", spoder2);
         }
     
