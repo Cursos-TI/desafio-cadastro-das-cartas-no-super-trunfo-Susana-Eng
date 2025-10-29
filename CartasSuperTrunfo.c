@@ -34,7 +34,13 @@ int main(){
     int resuldpopu;
     int resulpercap;
     int resulspoder;
-    int opcao;
+    int opcao1;
+    int opcao2;
+    int resulop1;
+    int resulop2;
+    int resulfinal;
+    int soatri1;
+    int soatri2;
 
     /*Declarando variaveis para comparaçao*/
     printf("Dados da carta 1\n");
